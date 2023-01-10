@@ -9,13 +9,13 @@ public class LineComparision {
             double Length_Of_Line;
             Scanner scan=new Scanner(System.in);
             System.out.println("enter x1 point");
-            x1=scan.nextInt();
+            x1 = scan.nextInt();
             System.out.println("enter x2 point");
-            x2=scan.nextInt();
+            x2 = scan.nextInt();
             System.out.println("enter y1 point");
-            y1=scan.nextInt();
+            y1 = scan.nextInt();
             System.out.println("enter y2 point");
-            y2=scan.nextInt();
+            y2 = scan.nextInt();
             //retrun  sq root of no.
             Length_Of_Line=Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
             System.out.println("distance between point is"+"("+x1+","+x2+"),"+"("+y1+","+y2+")="+Length_Of_Line);
